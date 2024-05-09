@@ -91,7 +91,7 @@ function render() {
       document.getElementById("health").textContent = health
       if(health < 1) {
         World.pause()
-        alert("Game over")
+        alert("Game over Score: $score")
         window.location.reload()
       }
     }
